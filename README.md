@@ -4,6 +4,8 @@
 
 #### 启动redis:
 
+进入 /usr/local/redis 目录，运行：
+
 ./bin/redis-server etc/redis.conf
 
 #### 获取项目：
