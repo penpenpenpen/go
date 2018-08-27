@@ -33,11 +33,8 @@ http://localhost:8080/posts/1 to see the post with id=1, and vice versa
 Try sending a POST request to add a post with:
 
 $ curl -H "Content-Type: application/json" -d '{
-
 "topic": "Hello from Mars",
-
 "text": "I am anonymous hehe. Catch me if you can." 
-
 }' http://localhost:8080/posts
 
 
