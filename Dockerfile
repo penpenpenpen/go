@@ -6,4 +6,4 @@ ADD blog /usr/local/
                                                                                              
 WORKDIR /usr/local/                                                                          
                                                                                              
-CMD["./blog"]  
+CMD ["./blog"]  
