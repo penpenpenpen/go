@@ -1,10 +1,9 @@
-FROM img.reg.3g:15000/ubuntu-base:v3
-
-MAINTAINER chen.wu@yeepay.com
-
-ADD bin/ /go/bin
-ADD swagger/ /go/bin/swagger/
-
-WORKDIR /go/bin
-
-ENTRYPOINT ["/go/bin/sentinel"]
+FROM ubuntu:latest                                                                                                                                                 
+                                                                                             
+MAINTAINER chen.wu@yeepay.com                                                                
+                                                                                             
+ADD blog /usr/local/                                                                             
+                                                                                             
+WORKDIR /usr/local/                                                                          
+                                                                                             
+CMD["./blog"]  
